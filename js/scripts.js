@@ -4,3 +4,9 @@ $(document).ready(function(){
       $("#design").toggle();
     });
 });
+$(document).ready(function(){
+    $(".dev").click(function(){
+      $("#dev-image").toggle();
+      $("#development").toggle();
+    });
+});

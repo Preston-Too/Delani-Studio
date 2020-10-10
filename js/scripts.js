@@ -46,3 +46,33 @@ $(document).ready(function(){
         $("#picture4").hide();
       });
     });
+
+    $(document).ready(function(){
+        $("#work5").mouseenter(function(){
+            $("#picture5").show();
+          })
+          .mouseleave(function(){
+            $("#picture5").hide();
+          });
+    
+          $("#work6").mouseenter(function(){
+            $("#picture6").show();
+          })
+          .mouseleave(function(){
+            $("#picture6").hide();
+          });
+    
+          $("#work7").mouseenter(function(){
+            $("#picture7").show();
+          })
+          .mouseleave(function(){
+            $("#picture7").hide();
+          });
+    
+          $("#work8").mouseenter(function(){
+            $("#picture8").show();
+          })
+          .mouseleave(function(){
+            $("#picture8").hide();
+          });
+        });

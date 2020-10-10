@@ -24,4 +24,25 @@ $(document).ready(function(){
       .mouseleave(function(){
         $("#picture1").hide();
       });
+
+      $("#work2").mouseenter(function(){
+        $("#picture2").show();
+      })
+      .mouseleave(function(){
+        $("#picture2").hide();
+      });
+
+      $("#work3").mouseenter(function(){
+        $("#picture3").show();
+      })
+      .mouseleave(function(){
+        $("#picture3").hide();
+      });
+
+      $("#work4").mouseenter(function(){
+        $("#picture4").show();
+      })
+      .mouseleave(function(){
+        $("#picture4").hide();
+      });
     });

@@ -16,3 +16,12 @@ $(document).ready(function(){
       $("#product").toggle();
     });
 });
+
+$(document).ready(function(){
+    $("#work1").mouseenter(function(){
+        $("#picture1").show();
+      })
+      .mouseleave(function(){
+        $("#picture1").hide();
+      });
+    });

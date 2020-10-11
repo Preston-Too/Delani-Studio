@@ -64,3 +64,6 @@
  .form-control::placeholder{
      color: white;
  }
+ footer{
+     text-align: center;
+ }

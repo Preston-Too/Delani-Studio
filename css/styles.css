@@ -49,3 +49,10 @@
 #contact{
     text-align: center;
 }
+.contact{
+    background-image:url("/images/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}

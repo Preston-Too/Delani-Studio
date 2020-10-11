@@ -118,18 +118,30 @@
                 <div class="contact">
                     <h2 id="contact">CONTACT US</h2>
                 
-                    <form class="p-3 mt-3 col-md-6 mx-auto" id="message-form" action="https://gmail.us17.list-manage.com/subscribe/post?u=fa93197458dcdb6b01911c8c1&amp;id=b37c3bfa45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                      <div class="form-group form-inline">
-                        <input type="text" class="form-control" placeholder = "Name..." name="input1" id="input1" size="25" required>
-                        <input type="email" class="form-control"  placeholder = "Email..."  name="input2" id="input2" size="25" value="" required>
-                      </div>
-                      <div class="form-group">
-                        <textarea class="form-control" rows="7" id="comment" placeholder = "Write message..."></textarea>
-                      </div>
-                      <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    <form class="p-3 mt-3 col-md-6 mx-auto" id="formContact" onsubmit="main()"
+                    action="https://gmail.us17.list-manage.com/subscribe/post?u=196a0b6548078a3e4dbb9813f&amp;id=67d2d6d20f"
+                    method="post" id="mc-embedded-subscribe" name="mc-embedded-subscribe-form" class="validate"
+                    target="_blank" novalidate>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Name.. " id="name" class="" required>
+                            </div>
+                            <div class="col">
+                                <input type="email" class="form-control" placeholder="Email.." id="email" class="" required>
+                            </div>
+                        </div>
                     </div>
-                    </form>
-                  </div>
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="contactUs" rows="6" id="message"
+                            placeholder="Your message here" required></textarea>
+                    </div>
+                      <div class=" clear col-2 mt-3 mx-auto mb-4">
+                            <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="validate">
+                        </div>
+                </form>
+            </div>
+    
 </div>
 </body>
 </html>

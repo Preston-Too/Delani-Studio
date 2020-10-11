@@ -56,3 +56,11 @@
     background-repeat: no-repeat;
     height: 100%;
 }
+#name,#email,#comment{
+    background-color: transparent;  
+     color: white;
+ }
+
+ .form-control::placeholder{
+     color: white;
+ }

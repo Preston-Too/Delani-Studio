@@ -47,32 +47,38 @@ $(document).ready(function(){
       });
     });
 
-    $(document).ready(function(){
-        $("#work5").mouseenter(function(){
-            $("#picture5").show();
+ $(document).ready(function(){
+    $("#work5").mouseenter(function(){
+        $("#picture5").show();
           })
-          .mouseleave(function(){
-            $("#picture5").hide();
+    .mouseleave(function(){
+        $("#picture5").hide();
           });
     
-          $("#work6").mouseenter(function(){
-            $("#picture6").show();
+    $("#work6").mouseenter(function(){
+        $("#picture6").show();
           })
-          .mouseleave(function(){
+        .mouseleave(function(){
             $("#picture6").hide();
           });
     
-          $("#work7").mouseenter(function(){
-            $("#picture7").show();
+    $("#work7").mouseenter(function(){
+        $("#picture7").show();
           })
-          .mouseleave(function(){
-            $("#picture7").hide();
+        .mouseleave(function(){
+        $("#picture7").hide();
           });
     
-          $("#work8").mouseenter(function(){
+        $("#work8").mouseenter(function(){
             $("#picture8").show();
           })
-          .mouseleave(function(){
+        .mouseleave(function(){
             $("#picture8").hide();
           });
         });
+
+
+function myResponse() {
+    var name = document.getElementById("name").value;
+    alert("Thank you " + name   + "," + "for reaching out to us." + "Looking forward" + " to serve you better.")
+};

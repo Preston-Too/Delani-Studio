@@ -78,7 +78,7 @@ $(document).ready(function(){
         });
 
 
-function myResponse() {
+function myMessage() {
     var name = document.getElementById("name").value;
     alert("Thank you " + name   + "," + "for reaching out to us." + "Looking forward" + " to serve you better.")
 };
